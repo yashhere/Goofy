@@ -4,14 +4,14 @@ A tool to automatically generate .gitignore file for your project
 from setuptools import find_packages, setup
 from scripts import *
 
-dependencies = ['click']
+dependencies = ['click', 'glob2']
 
 setup(
-    name='pooh',
+    name='Goofy',
     packages=find_packages(),
     version='0.1.0',
-    url='https://github.com/yash2696/Pooh',
-    download_url='https://github.com/yash2696/Pooh/archive/0.1.0.tar.gz',
+    url='https://github.com/yash2696/Goofy',
+    download_url='https://github.com/yash2696/Goofy/archive/0.1.0.tar.gz',
     license='MIT',
     author='Yash Agarwal',
     author_email='yashagarwaljpr@gmail.com',
@@ -23,7 +23,7 @@ setup(
     install_requires=dependencies,
     entry_points={
         'console_scripts': [
-            'pooh = scripts.cli:main',
+            'goofy = scripts.cli:main',
         ],
     },
 )

@@ -7,7 +7,7 @@
 
 '''
 
-
+import scripts
 import click
 import zipfile
 import urllib.request

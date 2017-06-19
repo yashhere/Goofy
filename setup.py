@@ -10,8 +10,10 @@ setup(
 )
 setup(
     name='pooh',
+    packages=['pooh'],
     version='0.1.0',
     url='https://github.com/yash2696/Pooh',
+    download_url='https://github.com/yash2696/Pooh/archive/0.1.0.tar.gz',
     license='MIT',
     author='Yash Agarwal',
     author_email='yashagarwaljpr@gmail.com',
@@ -26,5 +28,4 @@ setup(
             'pooh = pooh.cli:main',
         ],
     },
-    py_modules=['pooh'],
 )

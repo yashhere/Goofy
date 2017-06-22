@@ -1,11 +1,8 @@
 # Goofy
 Goofy generates .gitignore files for your project from command line.
 
-<p align="left">
-    <a href="https://github.com/yash2696/BeautifyMP3/LICENSE">
-		<img alt="License"  src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"/>
-	</a>           
-</p>
+[![PyPI version](https://img.shields.io/pypi/v/goofy.svg)](https://pypi.python.org/pypi/goofy)
+![License](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 
 ## Table of Contents
 
